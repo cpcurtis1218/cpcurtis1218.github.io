@@ -1,0 +1,33 @@
+body {
+  background: grey;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 1);
+  padding: 0px;
+}
+
+.carousel-img {
+  opacity: .5;
+}
+
+.header {
+  h3,
+  a {
+    color: white;
+  }
+
+  & .selected {
+    border-bottom: 2px solid white;
+  }
+}
+
+.projects {
+  background: black;
+  height: 500px;
+  margin: 15px auto;
+  width: 950px;
+}
